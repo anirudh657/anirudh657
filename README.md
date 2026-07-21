@@ -318,7 +318,9 @@ jobs:
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" />
+> "Make it work, make it right, make it fast."
+>
+> **— Kent Beck**
 
 </div>
 
