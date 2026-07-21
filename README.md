@@ -145,23 +145,26 @@ An interactive analytics dashboard for equity market data, delivering live prici
 
 <div align="center">
 
-### Expense Tracker Pro
+### Spidey Landing Page
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
 
 </div>
 
-A command-line personal finance tool focused on fast data entry, structured storage, and clear reporting.
+A themed landing page built to explore motion design on the web — scroll-driven animation, layered parallax, and a fully responsive layout.
 
 <details>
 <summary><b>Key capabilities</b></summary>
 
 <br/>
 
-- Add, search, and delete expense records
-- Category-based organisation
-- Summary and breakdown reports
-- Persistent local storage
+- Scroll-triggered animations and transitions
+- Layered parallax depth effects
+- Responsive layout across mobile, tablet, and desktop
+- Custom cursor and hover interactions
+- Optimised asset loading for fast first paint
 
 </details>
 
