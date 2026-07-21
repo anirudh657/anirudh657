@@ -2,14 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Anirudh%20Arora&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Computer%20Science%20Engineer%20%7C%20AI%20%C2%B7%20Computer%20Vision%20%C2%B7%20Full%20Stack&descAlignY=55&descSize=16" width="100%" />
 
-<a href="https://github.com/anirudh657-github">
+<a href="https://github.com/anirudh657">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=520&lines=B.Tech+CSE+%7C+Second+Year;Building+with+AI+%26+Computer+Vision;Exploring+AR%2FVR+and+Immersive+Web;Open+Source+Contributor" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=anirudh657-github&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/anirudh657-github?label=Followers&style=flat&color=0e75b6" alt="Followers" />
+<img src="https://komarev.com/ghpvc/?username=anirudh657&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/anirudh657?label=Followers&style=flat&color=0e75b6" alt="Followers" />
 
 </div>
 
@@ -240,20 +240,20 @@ A command-line personal finance tool focused on fast data entry, structured stor
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anirudh657-github&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh657-github&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anirudh657&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh657&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=anirudh657-github&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+<img src="https://streak-stats.demolab.com?user=anirudh657&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anirudh657-github&theme=github-compact&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&hide_border=true&area=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anirudh657&theme=github-compact&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&hide_border=true&area=true" width="95%" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=anirudh657-github&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" width="95%" />
+<img src="https://github-profile-trophy.vercel.app/?username=anirudh657&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" width="95%" />
 
 </div>
 
@@ -263,7 +263,7 @@ A command-line personal finance tool focused on fast data entry, structured stor
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/anirudh657-github/anirudh657-github/output/snake.svg" alt="Snake animation" width="95%" />
+<img src="https://raw.githubusercontent.com/anirudh657/anirudh657/output/snake.svg" alt="Snake animation" width="95%" />
 
 </div>
 
@@ -325,7 +325,7 @@ jobs:
 
 <div align="center">
 
-<a href="https://github.com/anirudh657-github">
+<a href="https://github.com/anirudh657">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <a href="https://linkedin.com/in/your-linkedin">
