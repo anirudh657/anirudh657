@@ -247,13 +247,8 @@ A themed landing page built to explore motion design on the web — scroll-drive
 
 <br/><br/>
 
-<!--
-  STATS + TOP-LANGS: replace YOUR-INSTANCE with your self-hosted Vercel instance
-  (Phase 2 of the setup guide) to avoid "API rate limit exceeded" on the shared
-  public instance. Until then, github-readme-stats.vercel.app works but may rate-limit.
--->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anirudh657&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh657&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top languages" />
+<img width="49%" src="https://raw.githubusercontent.com/anirudh657/anirudh657/main/stats.svg?v=1" alt="GitHub stats" />
+<img width="49%" src="https://raw.githubusercontent.com/anirudh657/anirudh657/main/top-langs.svg?v=1" alt="Top languages" />
 
 </div>
 
