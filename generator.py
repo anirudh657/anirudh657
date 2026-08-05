@@ -201,17 +201,29 @@ def render_svg(mode, dots, out_path):
     groups = make_intro_groups(dots, n_groups=60)
     ev = evenness_metric(dots, GRID_W, GRID_H, groups)
 
+    # Continuous LOOP: each group of dots flies in from a scattered offset and
+    # fades up to assemble the photo, holds, then streams back out and re-forms
+    # — forever. Groups are staggered so the formation sweeps as a live wave.
+    CYCLE = 9.0            # seconds per full dissolve->reform loop
+    WAVE = 3.0            # spread of the staggered formation wave
+    kt = "0;0.13;0.82;1"  # keyTimes: fly-in, hold, dissolve-out
     intro_paths = []
-    dur_each = 2.0
-    total_intro = 3.2
     for i, g in enumerate(groups):
-        begin = (i / len(groups)) * (total_intro - dur_each) if len(groups) > 1 else 0
-        begin = max(0.0, begin)
+        begin = -(i / max(1, len(groups))) * WAVE  # negative begin = start mid-cycle
         d = dots_to_path(g, scale_x, scale_y)
+        ang = random.uniform(0, 2 * 3.14159)
+        mag = random.uniform(14, 38)
+        dx = mag * np.cos(ang)
+        dy = mag * np.sin(ang)
         intro_paths.append(
-            f'<path d="{d}" fill="{pal["portrait"]}" opacity="0">'
-            f'<animate attributeName="opacity" values="0;1" dur="0.9s" '
-            f'begin="{begin:.3f}s" fill="freeze"/></path>'
+            f'<g opacity="0">'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="{kt}" '
+            f'dur="{CYCLE}s" begin="{begin:.3f}s" repeatCount="indefinite"/>'
+            f'<animateTransform attributeName="transform" type="translate" '
+            f'values="{dx:.1f} {dy:.1f};0 0;0 0;{dx:.1f} {dy:.1f}" keyTimes="{kt}" '
+            f'dur="{CYCLE}s" begin="{begin:.3f}s" repeatCount="indefinite"/>'
+            f'<path d="{d}" fill="{pal["portrait"]}"/>'
+            f'</g>'
         )
 
     rows_svg = []
@@ -240,9 +252,12 @@ def render_svg(mode, dots, out_path):
 <circle cx="68" cy="19" r="6" fill="#34D399"/>
 <text x="{W/2}" y="24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="{pal["text"]}">profile.sh --live</text>
 
+<defs>
+<clipPath id="pclip"><rect x="-6" y="-6" width="{PORTRAIT_PX_W + 12}" height="{PORTRAIT_PX_H + 12}"/></clipPath>
+</defs>
 <text x="{portrait_x}" y="60" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2" fill="{pal["chrome"]}">VISUAL.MAP</text>
 <rect x="{portrait_x - 10}" y="{portrait_y - 4}" width="{PORTRAIT_PX_W + 20}" height="{PORTRAIT_PX_H + 20}" rx="6" fill="none" stroke="{pal["chrome_dim"]}" stroke-opacity="0.35"/>
-<g transform="translate({portrait_x},{portrait_y})" shape-rendering="crispEdges">
+<g transform="translate({portrait_x},{portrait_y})" clip-path="url(#pclip)" shape-rendering="crispEdges">
 {''.join(intro_paths)}
 </g>
 
