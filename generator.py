@@ -184,6 +184,13 @@ def make_intro_groups(dots, n_groups=60):
     return groups
 
 
+def xml_escape(s):
+    """Escape text for safe embedding in SVG/XML. An unescaped & or < makes the
+    whole SVG invalid XML, which browsers render as a broken image."""
+    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+             .replace('"', "&quot;"))
+
+
 def render_svg(mode, dots, out_path):
     pal = PALETTE[mode]
     W, H = 1180, 610
@@ -213,14 +220,15 @@ def render_svg(mode, dots, out_path):
     for label, value in INFO_ROWS:
         leader_len = max(4, 46 - len(label) - len(value))
         leader = "." * leader_len
+        elabel, evalue = xml_escape(label), xml_escape(value)
         rows_svg.append(
             f'<text x="0" y="{ry}" font-family="JetBrains Mono, monospace" font-size="13" '
-            f'fill="{pal["chrome_dim"]}">{label}</text>'
+            f'fill="{pal["chrome_dim"]}">{elabel}</text>'
             f'<text x="150" y="{ry}" font-family="JetBrains Mono, monospace" font-size="13" '
             f'fill="{pal["text"]}" opacity="0.5">{leader}</text>'
             f'<text x="360" y="{ry}" font-family="JetBrains Mono, monospace" font-size="14" '
             f'fill="{pal["text_bright"]}" text-anchor="end" textLength="150" '
-            f'lengthAdjust="spacingAndGlyphs">{value}</text>'
+            f'lengthAdjust="spacingAndGlyphs">{evalue}</text>'
         )
         ry += row_h
 
