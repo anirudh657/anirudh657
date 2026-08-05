@@ -1,15 +1,14 @@
+<!-- ====================== ANIMATED BANNER ====================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Anirudh%20Arora&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Computer%20Science%20Engineer%20%7C%20AI%20%C2%B7%20Computer%20Vision%20%C2%B7%20Full%20Stack&descAlignY=55&descSize=16" width="100%" />
-
-<a href="https://github.com/anirudh657">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=520&lines=B.Tech+CSE+%7C+Second+Year;Building+with+AI+%26+Computer+Vision;Exploring+AR%2FVR+and+Immersive+Web;Open+Source+Contributor" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=anirudh657&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/anirudh657?label=Followers&style=flat&color=0e75b6" alt="Followers" />
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/anirudh657/anirudh657/main/dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/anirudh657/anirudh657/main/light.svg">
+  <img alt="Anirudh Arora — profile.sh --live"
+    src="https://raw.githubusercontent.com/anirudh657/anirudh657/main/light.svg" width="100%">
+</picture>
 
 </div>
 
@@ -243,84 +242,37 @@ A themed landing page built to explore motion design on the web — scroll-drive
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anirudh657&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh657&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
+<!-- Streak card (public instance is fine for streaks). -->
+<img width="100%" src="https://streak-stats.demolab.com/?user=anirudh657&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub streak" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=anirudh657&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anirudh657&theme=github-compact&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&hide_border=true&area=true" width="95%" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=anirudh657&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" width="95%" />
+<!--
+  STATS + TOP-LANGS: replace YOUR-INSTANCE with your self-hosted Vercel instance
+  (Phase 2 of the setup guide) to avoid "API rate limit exceeded" on the shared
+  public instance. Until then, github-readme-stats.vercel.app works but may rate-limit.
+-->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anirudh657&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anirudh657&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top languages" />
 
 </div>
 
----
-
-## Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/anirudh657/anirudh657/output/snake.svg" alt="Snake animation" width="95%" />
-
-</div>
-
-<details>
-<summary><b>Enable the snake animation</b></summary>
-
-<br/>
-
-Create `.github/workflows/snake.yml` in this repository:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
+> `hide_rank=true` is intentional — the letter grade is weighted toward stars and followers, so it measures repo popularity rather than how much you actually code.
 
 ---
 
-## Developer Quote
+## Contribution Snake
 
 <div align="center">
 
-> "Make it work, make it right, make it fast."
->
-> **— Kent Beck**
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/anirudh657/anirudh657/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/anirudh657/anirudh657/output/github-snake.svg" />
+  <img alt="Snake eating my contributions"
+    src="https://raw.githubusercontent.com/anirudh657/anirudh657/output/github-snake.svg" width="100%" />
+</picture>
 
 </div>
 
@@ -330,14 +282,12 @@ jobs:
 
 <div align="center">
 
-<a href="https://github.com/anirudh657">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://www.linkedin.com/in/anirudh-arora-30646b37a">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://linkedin.com/in/your-linkedin">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+&nbsp;&nbsp;
+<a href="mailto:anirudharoraarora2@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
 </a>
 
 <br/><br/>
@@ -351,9 +301,3 @@ Open to collaboration on AI, computer vision, and immersive web projects.
 ## Open Source
 
 I believe good software is built in the open. If a project here saved you time or taught you something, a star helps more people find it — and issues, discussions, and pull requests are always welcome.
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" />
-
-</div>
